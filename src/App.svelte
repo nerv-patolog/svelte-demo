@@ -2,7 +2,7 @@
     import chaptersFactory from './helpers/chapters-factory';
     import chaptersList from './stores/chapters';
 
-    let selectedId = 4;
+    let selectedId = 5;
 
     function selectItem(id) {
         selectedId = id;
