@@ -44,7 +44,7 @@
     }
 
     /* that's the way how to avoid scoping in CSS */
-    :global(input) {
+    :global(input[type='text']) {
         width: clamp(100px, 30vw, 50vw);
     }
 </style>

@@ -2,7 +2,7 @@
     import chaptersFactory from './helpers/chapters-factory';
     import chaptersList from './stores/chapters';
 
-    let selectedId = 3;
+    let selectedId = 4;
 
     function selectItem(id) {
         selectedId = id;
@@ -29,14 +29,23 @@
 </main>
 
 <style>
+    :global(*) {
+        box-sizing: border-box;
+    }
+    :global(body) {
+        padding: 0px !important;
+    }
+
     main {
+        height: 100%;
         display: grid;
-        padding: 1rem;
+        padding: 0 1rem;
         grid-template-columns: minmax(8rem, 1fr) 7fr;
     }
 
     section {
-        padding: 1rem;
+        padding: 0 1rem;
+        height: 100%;
     }
 
     .item {
