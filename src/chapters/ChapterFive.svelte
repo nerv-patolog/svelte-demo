@@ -20,7 +20,7 @@
     }
 </script>
 
-<h2>Binding & Forms</h2>
+<h2>Binding & Forms 🙄</h2>
 
 <CustomInput bind:val /> 👉
 {val}
