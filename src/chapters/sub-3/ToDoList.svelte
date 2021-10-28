@@ -1,8 +1,16 @@
 <script>
     import ToDoItem from './ToDoItem.svelte';
+
+    export let list = [];
 </script>
-<input type="text" />
-<ToDoItem />
+
+<section>
+    {#each list as l (l.id)}
+        <div>
+            <ToDoItem {...l} on:done />
+        </div>
+    {/each}
+</section>
 
 <style>
 </style>
