@@ -4,6 +4,7 @@
     import writableStore from './sub-7/writable-store';
     import Reset from './sub-7/Reset.svelte';
     import DummyCopy from './sub-7/DummyCopy.svelte';
+    import DummyCopy2 from './sub-7/DummyCopy2.svelte';
     import '../styles/common.css';
 
     let formattedDate;
@@ -46,6 +47,7 @@
 </div>
 <p />
 <div><DummyCopy /></div>
+<p><DummyCopy2 /></p>
 
 <style>
     /* @import '../styles/common.css'; */
