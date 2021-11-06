@@ -132,6 +132,6 @@
         height: 100%;
     }
     circle {
-        fill: #ff3e00;
+        fill: var(--main-color);
     }
 </style>
