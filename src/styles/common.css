@@ -1,4 +1,8 @@
+:root {
+    --main-color: #ff3e00;
+}
+
 h1 {
-    color: red;
+    color: var(--main-color);
     text-decoration: overline;
 }
