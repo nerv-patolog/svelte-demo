@@ -47,7 +47,7 @@ const chapters = [
     },
     {
         id: 11,
-        name: 'Svelte slots',
+        name: 'Svelte slots & contexts',
     },
     {
         id: 12,

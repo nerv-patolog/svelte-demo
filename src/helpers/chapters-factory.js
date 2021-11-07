@@ -9,6 +9,7 @@ import ChapterSeven from '../chapters/ChapterSeven.svelte';
 import ChapterEight from '../chapters/ChapterEight.svelte';
 import ChapterNine from '../chapters/ChapterNine.svelte';
 import ChapterTen from '../chapters/ChapterTen.svelte';
+import ChapterEleven from '../chapters/ChapterEleven.svelte';
 
 export default (id) => {
     switch (id) {
@@ -33,7 +34,7 @@ export default (id) => {
         case 10:
             return ChapterTen;
         case 11:
-            return '';
+            return ChapterEleven;
         case 12:
             return '';
         default:
