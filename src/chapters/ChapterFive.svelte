@@ -103,7 +103,7 @@
 
 <style>
     h2 {
-        color: #ff3e00;
+        color: var(--main-color);
         text-transform: uppercase;
     }
 

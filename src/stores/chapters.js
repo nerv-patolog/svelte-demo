@@ -59,7 +59,7 @@ let counter = 0;
 
 export default readable([], function start(set) {
     const interval = setInterval(() => {
-        if (counter < chapters.length) {
+        if (counter <= chapters.length) {
             set(chapters.slice(0, counter));
             counter++;
         } else {

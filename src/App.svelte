@@ -2,7 +2,7 @@
     import chaptersFactory from './helpers/chapters-factory';
     import chaptersList from './stores/chapters';
 
-    let selectedId = 11;
+    let selectedId = 12;
 
     function selectItem(id) {
         selectedId = id;
@@ -53,7 +53,7 @@
         padding: 1rem;
         text-transform: uppercase;
         border-radius: 0.5rem 0 0 0.5rem;
-        color: #ff3e00;
+        color: var(--main-color);
         transition: all 0.1s ease;
     }
 

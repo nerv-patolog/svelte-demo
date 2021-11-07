@@ -83,7 +83,7 @@
 
 <style>
     h1 {
-        color: #ff3e00;
+        color: var(--main-color);
         text-transform: uppercase;
     }
 
@@ -113,14 +113,14 @@
         border-radius: 4px;
         min-width: clamp(100px, 10vw, 40vw);
         cursor: pointer;
-        color: #ff3e00;
+        color: var(--main-color);
         background-color: #ff3e001c;
     }
 
     textarea {
         width: 30vw;
         height: 5rem;
-        border-color: #ff3e00;
+        border-color: var(--main-color);
         resize: none;
     }
 </style>
