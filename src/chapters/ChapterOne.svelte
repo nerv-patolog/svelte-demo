@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import SumComponent, { getCurrentValue } from './sub-1/SumComponent.svelte';
 
     let firstComponent;

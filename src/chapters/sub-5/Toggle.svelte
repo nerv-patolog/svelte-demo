@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let chosenOption = 1;
 </script>
 

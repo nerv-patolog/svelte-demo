@@ -1,10 +1,11 @@
-<script>
+<script lang="ts">
     import { onMount, setContext } from 'svelte';
+    import type { ContentObject } from '../types/common';
     import ABitMoreComplicated from './sub-11/ABitMoreComplicated.svelte';
     import SimpleComponent from './sub-11/SimpleComponent.svelte';
     import TheMostComplicatedOne from './sub-11/TheMostComplicatedOne.svelte';
 
-    setContext('simple', {
+    setContext<ContentObject>('simple', {
         id: 'simple',
         content: 'Some simple content',
     });

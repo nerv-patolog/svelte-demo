@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <section>
     <div class="item">Item 1</div>
     <div class="item">Item 2</div>

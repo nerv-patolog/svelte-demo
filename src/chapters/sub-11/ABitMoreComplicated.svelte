@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <section>
     <slot name="header"><h1>That's a header</h1></slot>
     <br />

@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
     import chaptersFactory from './helpers/chapters-factory';
     import chaptersList from './stores/chapters';
 
-    let selectedId = 12;
+    let selectedId = 13;
 
     function selectItem(id) {
         selectedId = id;

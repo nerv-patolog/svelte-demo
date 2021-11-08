@@ -1,5 +1,9 @@
-<script>
-    export let item = 0;
+<script lang="ts">
+    export let item = {
+        id: 0,
+        emoji: '',
+        value: '',
+    };
 
     const { emoji } = item;
 </script>

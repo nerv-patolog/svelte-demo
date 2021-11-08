@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import customStore from './custom-store';
 
     function getRandom() {

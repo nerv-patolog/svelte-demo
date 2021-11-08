@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { onDestroy } from 'svelte';
     import writableStore from './writable-store';
     import { writableDerived } from './derived-store';

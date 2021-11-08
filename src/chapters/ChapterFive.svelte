@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import CustomInput from './sub-5/CustomInput.svelte';
     import Toggle from './sub-5/Toggle.svelte';
 

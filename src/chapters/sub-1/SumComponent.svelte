@@ -1,4 +1,4 @@
-<script context="module">
+<script context="module" lang="ts">
     let totalCalculations = 0;
 
     export function getCurrentValue() {
@@ -6,7 +6,7 @@
     }
 </script>
 
-<script>
+<script lang="ts">
     import { afterUpdate } from 'svelte';
 
     export let first = 10;

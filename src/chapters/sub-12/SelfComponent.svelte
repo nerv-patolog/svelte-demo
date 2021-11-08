@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     export let level = 6;
 
     const color = (parseInt('ff3e00', 16) - level * 496).toString(16);

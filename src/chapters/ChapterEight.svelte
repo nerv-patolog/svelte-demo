@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { spring, tweened } from 'svelte/motion';
     import { backInOut } from 'svelte/easing';
 

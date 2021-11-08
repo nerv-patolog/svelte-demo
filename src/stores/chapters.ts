@@ -53,6 +53,10 @@ const chapters = [
         id: 12,
         name: 'Svelte special',
     },
+    {
+        id: 13,
+        name: 'Svelte custom elements',
+    },
 ];
 
 let counter = 0;

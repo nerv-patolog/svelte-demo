@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import FragmentedComponent from './sub-12/FragmentedComponent.svelte';
     import SelfComponent from './sub-12/SelfComponent.svelte';
 

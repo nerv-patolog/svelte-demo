@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import readableStore, { stop } from './sub-7/readable-store';
     import { readableDerived } from './sub-7/derived-store';
     import writableStore from './sub-7/writable-store';

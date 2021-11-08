@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import SimpleComponent from './SimpleComponent.svelte';
 
     let selected = false;

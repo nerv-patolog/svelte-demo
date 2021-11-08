@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import { fade, blur, fly, scale, slide } from 'svelte/transition';
     import { circOut, cubicIn, elasticInOut, quadInOut } from 'svelte/easing';
     import { flip } from 'svelte/animate';

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ownStore from './own-store';
 </script>
 

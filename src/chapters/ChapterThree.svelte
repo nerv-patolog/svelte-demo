@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ToDoList from './sub-3/ToDoList.svelte';
     import InputComponent from './sub-3/InputComponent.svelte';
 

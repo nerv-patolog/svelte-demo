@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
     import LogItem from './sub-2/LogItem.svelte';
 
-    let number = 0;
+    let number: number = 0;
     let promise = null;
     let logs = [];
 
@@ -42,6 +42,10 @@
             }, 2000);
         });
     }
+
+    function onInput({ target }) {
+        addLog((target as HTMLInputElement).value);
+    }
 </script>
 
 <div class="wrapper">
@@ -51,9 +55,7 @@
                 >Type any number: <input
                     type="number"
                     bind:value={number}
-                    on:input={(e) => {
-                        addLog(e.target.value);
-                    }}
+                    on:input={onInput}
                 />
             </label>
 

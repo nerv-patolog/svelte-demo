@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import ToDoItem from './ToDoItem.svelte';
 
     export let list = [];

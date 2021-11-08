@@ -1,13 +1,14 @@
-<script>
+<script lang="ts">
     import { getContext, hasContext } from 'svelte';
+    import type { ContentObject } from '../../types/common';
 
     let context = '';
     let context2 = '';
     if (hasContext('simple')) {
-        context = getContext('simple')?.content;
+        context = getContext<ContentObject>('simple')?.content;
     }
     if (hasContext('simple2')) {
-        context2 = getContext('simple2')?.content;
+        context2 = getContext<ContentObject>('simple2')?.content;
     }
 </script>
 
